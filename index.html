@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Playground Finder</title>
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -12,40 +12,41 @@
 </head>
 <body>
 
-  <div>
-    <h1><img class="img-flex" src="images/logo.svg" alt=""<Playground Finder></h1>
+  <div class="banner unit xs-1-2 s-1-2 m-1-2 l-1-2">
+    <h1><img class="img-flex" src="images/logo.svg" alt="Playground Finder"></h1>
   </div>
-  <div class="unit">
+
+  <div class="banner unit xs-1 s-1 m-2-3 l-3-4">
     <form class="relative" action="#">
-      <label class="search-icon icon i-18 pin-lc" for="find" title="Search"><img src="images/search.svg" alt="Find"><label>
+      <label class="search-icon icon i-18 pin-lc" for="find" title="Search"><img src="images/search.svg" alt="Find"></label>
       <input class="search-input" type="search" id="find" required>
     </form>
   </div>
 
   <div class="grid grid-stretch">
-    <div class="unit">
-      <h2>Nearest playgrounds</h2>
+    <div class="pannel unit xs-1 s-1 m-1-3 l-1-4 island-1-2">
+      <h2 class="giga push-1-2">Nearest playgrounds</h2>
 
-      <ul>
-        <li class="pannel card">
-          <h3>373</h3>
-          <dl>
+      <ul class="list-group push-0">
+        <li class="card island-1-2 push-1-2">
+          <h3 class="push-0">373</h3>
+          <dl class="push-0">
             <dt>Distance</dt>
-            <dd>0.75km</dd>
+            <dd>0.75 km</dd>
           </dl>
         </li>
-        <li class="pannel card">
-          <h3>1700</h3>
-          <dl>
+        <li class="card island-1-2 push-1-2">
+          <h3 class="push-0">1700</h3>
+          <dl class="push-0">
             <dt>Distance</dt>
-            <dd>2.58km</dd>
+            <dd>2.58 km</dd>
           </dl>
         </li>
-        <li class="pannel card">
-          <h3>960</h3>
-          <dl>
+        <li class="card island-1-2 push-1-2">
+          <h3 class="push-0">960</h3>
+          <dl class="push-0">
             <dt>Distance</dt>
-            <dd>3.03km</dd>
+            <dd>3.03 km</dd>
           </dl>
         </li>
       </ul>
@@ -53,21 +54,24 @@
   </div>
 
   <table>
-    <tbody>
+    <caption>Playgrounds in the city</caption>
+    <thead>
       <tr>
-        <th scope="row">Park ID</th>
-        <td>Park type</td>
-        <td>Age group<td>
-        <td>Swings</td>
-        <td>Slides</td>
-        <td>Seesaws</td>
-        <td>Sandboxes</td>
-        <td>Playhouses</td>
+        <th scope="col">Park ID</th>
+        <th scope="col">Park type</th>
+        <th scope="col">Age group</th>
+        <th scope="col">Swings</th>
+        <th scope="col">Slides</th>
+        <th scope="col">Seesaws</th>
+        <th scope="col">Sandboxes</th>
+        <th scope="col">Playhouses</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
         <th scope="row">545</th>
         <td>Play area</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>Yes</td>
         <td>No</td>
         <td>No</td>
@@ -77,7 +81,7 @@
       <tr>
         <th scope="row">81</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>Yes</td>
         <td>No</td>
         <td>No</td>
@@ -87,7 +91,7 @@
       <tr>
         <th scope="row">140</th>
         <td>Play structure</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -97,7 +101,7 @@
       <tr>
         <th scope="row">376</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>Yes</td>
         <td>No</td>
         <td>No</td>
@@ -107,7 +111,7 @@
       <tr>
         <th scope="row">373</th>
         <td>Play area</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -117,7 +121,7 @@
       <tr>
         <th scope="row">310</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>No</td>
         <td>Yes</td>
         <td>No</td>
@@ -127,7 +131,7 @@
       <tr>
         <th scope="row">1133</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -137,7 +141,7 @@
       <tr>
         <th scope="row">1032</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>No</td>
         <td>No</td>
         <td>Yes</td>
@@ -147,7 +151,7 @@
       <tr>
         <th scope="row">1647</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -157,7 +161,7 @@
       <tr>
         <th scope="row">1700</th>
         <td>Play structure</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -167,7 +171,7 @@
       <tr>
         <th scope="row">1213</th>
         <td>Play structure</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -177,7 +181,7 @@
       <tr>
         <th scope="row">2452</th>
         <td>Play area</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>Yes</td>
         <td>No</td>
         <td>No</td>
@@ -187,7 +191,7 @@
       <tr>
         <th scope="row">1010</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>No</td>
         <td>Yes</td>
         <td>No</td>
@@ -197,7 +201,7 @@
       <tr>
         <th scope="row">960</th>
         <td>Play structure</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -207,7 +211,7 @@
       <tr>
         <th scope="row">555</th>
         <td>Play structure</td>
-        <td>Senior<td>
+        <td>Senior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -217,7 +221,7 @@
       <tr>
         <th scope="row">403</th>
         <td>Play structure</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -227,7 +231,7 @@
       <tr>
         <th scope="row">89</th>
         <td>Play area</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>Yes</td>
         <td>No</td>
         <td>No</td>
@@ -237,7 +241,7 @@
       <tr>
         <th scope="row">786</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>No</td>
@@ -247,7 +251,7 @@
       <tr>
         <th scope="row">108</th>
         <td>Play structure</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -257,7 +261,7 @@
       <tr>
         <th scope="row">686</th>
         <td>Play structure</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -267,7 +271,7 @@
       <tr>
         <th scope="row">1083</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>Yes</td>
         <td>No</td>
         <td>Yes</td>
@@ -277,7 +281,7 @@
       <tr>
         <th scope="row">806</th>
         <td>Play structure</td>
-        <td>Senior<td>
+        <td>Senior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -287,7 +291,7 @@
       <tr>
         <th scope="row">1032</th>
         <td>Play area</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>Yes</td>
         <td>No</td>
         <td>No</td>
@@ -297,7 +301,7 @@
       <tr>
         <th scope="row">65</th>
         <td>Play structure</td>
-        <td>Toddler<td>
+        <td>Toddler</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -307,7 +311,7 @@
       <tr>
         <th scope="row">609</th>
         <td>Play area</td>
-        <td>Junior<td>
+        <td>Junior</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
