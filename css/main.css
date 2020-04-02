@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.3 "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .banner {
@@ -12,4 +12,8 @@ h2, ul {
 
 .card {
   background-color: #fff;
+}
+
+.icon {
+  max-width: 200px;
 }
