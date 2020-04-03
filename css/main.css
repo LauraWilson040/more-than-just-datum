@@ -1,20 +1,21 @@
 html {
   font-family: "IBM Plex Sans", sans-serif;
-  background-color: #fff;
+  background-color: #efefef;
 }
 
-.banner {
+.header {
   background-color: #ddd;
 }
 
-h2, ul {
-  background-color: #efefef;
+.search-bar {
+  border-color: #ddd;
 }
 
 .card {
   background-color: #fff;
+  max-width: 200px;
 }
 
-.icon {
-  max-width: 200px;
+table, caption {
+  background-color: #fff;
 }
