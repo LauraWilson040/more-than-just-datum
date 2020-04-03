@@ -7,8 +7,13 @@ html {
   background-color: #ddd;
 }
 
+.logo {
+  display: inline;
+}
+
 .search-bar {
   border-color: #ddd;
+  display: inline;
 }
 
 .card {
